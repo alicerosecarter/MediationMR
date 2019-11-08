@@ -1,6 +1,6 @@
 #install.packages(foreign)
 library(foreign)
-sample_mediation <- read.dta("U:/data/R/simulated_dataset_stata12.dta")
+sample_mediation <- read.dta("simulated_dataset_stata12.dta")
 
 #install.packages("AER")
 library("AER")
